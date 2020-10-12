@@ -1,0 +1,12 @@
+a=0
+b=1
+n=int(input("Enter number of fibonacci terms- "))
+i=0
+list= []
+while i<n:
+    list.append(a)
+    c=a+b
+    a=b
+    b=c
+    i=i+1
+print(list)
